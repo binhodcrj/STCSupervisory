@@ -641,7 +641,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "formSTCSupervisory";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "STC Supervisory 1.0.1";
+            this.Text = "STC Supervisory 1.0.3";
             this.Load += new System.EventHandler(this.formSTCSupervisory_Load);
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
