@@ -16,6 +16,11 @@ You can load the files present in the arduino_testX folder present in the folder
 Visual Studio 2022
 
 * [Visual Studio Community](https://visualstudio.microsoft.com/pt-br/free-developer-offers/)
+  
+AdvancedHMI
+
+* [AdvancedHMI](https://www.advancedhmi.com/)
+
 
 
 ## 📌 Version
@@ -27,7 +32,10 @@ Visual Studio 2022
 
 # 1.0.2
 * It is now possible to take readings from analog sensors and control their monitoring
- 
+  
+# 1.0.3
+* Adding a synoptic for monitoring using resources from the AdvancedHMI library
+* Removal of start and stop buttons
 
 ## ✒️ Author
 
