@@ -50,8 +50,10 @@
             this.btnStop = new System.Windows.Forms.Button();
             this.btnStart = new System.Windows.Forms.Button();
             this.cSerial = new System.IO.Ports.SerialPort(this.components);
+            this.ethernetIPforCLXCom1 = new AdvancedHMIDrivers.EthernetIPforCLXCom(this.components);
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ethernetIPforCLXCom1)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox2
@@ -277,6 +279,18 @@
             // 
             this.cSerial.DataReceived += new System.IO.Ports.SerialDataReceivedEventHandler(this.cSerial_DataReceived);
             // 
+            // ethernetIPforCLXCom1
+            // 
+            this.ethernetIPforCLXCom1.CIPConnectionSize = 508;
+            this.ethernetIPforCLXCom1.DisableMultiServiceRequest = false;
+            this.ethernetIPforCLXCom1.DisableSubscriptions = false;
+            this.ethernetIPforCLXCom1.IPAddress = "192.168.0.10";
+            this.ethernetIPforCLXCom1.PollRateOverride = 500;
+            this.ethernetIPforCLXCom1.Port = 44818;
+            this.ethernetIPforCLXCom1.ProcessorSlot = 0;
+            this.ethernetIPforCLXCom1.RoutePath = null;
+            this.ethernetIPforCLXCom1.Timeout = 4000;
+            // 
             // formSTCSupervisory
             // 
             this.AccessibleRole = System.Windows.Forms.AccessibleRole.IpAddress;
@@ -298,6 +312,7 @@
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.ethernetIPforCLXCom1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -323,6 +338,7 @@
         private System.Windows.Forms.ProgressBar progressBar1;
         private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.Button btnStart;
+        private AdvancedHMIDrivers.EthernetIPforCLXCom ethernetIPforCLXCom1;
     }
 }
 

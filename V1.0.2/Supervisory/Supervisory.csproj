@@ -35,14 +35,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AdvancedHMIControls">
+      <HintPath>..\..\Advanced HMI\AdvancedHMIControls\bin\Debug\AdvancedHMIControls.dll</HintPath>
+    </Reference>
+    <Reference Include="AdvancedHMIDrivers">
+      <HintPath>..\..\Advanced HMI\AdvancedHMIControls\bin\Debug\AdvancedHMIDrivers.dll</HintPath>
+    </Reference>
+    <Reference Include="MfgControl.AdvancedHMI.Controls">
+      <HintPath>..\..\Advanced HMI\AdvancedHMIControls\bin\Debug\MfgControl.AdvancedHMI.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="MfgControl.AdvancedHMI.Drivers">
+      <HintPath>..\..\Advanced HMI\AdvancedHMIControls\bin\Debug\MfgControl.AdvancedHMI.Drivers.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="netstandard" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Design" />
+    <Reference Include="System.Drawing.Design" />
     <Reference Include="System.Management" />
+    <Reference Include="System.Speech" />
     <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
     <Reference Include="System.Xaml" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
