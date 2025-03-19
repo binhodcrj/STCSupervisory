@@ -1,5 +1,0 @@
-﻿tagAlias,40001
-Mytag,40002
-DummyTag1,40003
-N70,N7:0
-N71,N7:1
