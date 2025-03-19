@@ -21,7 +21,9 @@ AdvancedHMI
 
 * [AdvancedHMI](https://www.advancedhmi.com/)
 
-
+## Prerequisites
+- Download AdvanceHMI from [official link](https://github.com/TemperedEnterprises/AdvancedHMI) and follow the installation instructions.
+- Add the AdvanceHMI reference to your project after cloning this repository.
 
 ## 📌 Version
 
